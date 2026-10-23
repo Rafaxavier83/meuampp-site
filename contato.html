@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contato | Rafael Xavier – EngenIA Processos</title>
+<meta name="description" content="Fale com Rafael Xavier: consultoria, palestras, treinamentos e parcerias. Formulário, WhatsApp, e-mail e agendamento.">
+<link rel="canonical" href="https://rafaelxavier.com.br/contato.html">
+<meta property="og:title" content="Contato | Rafael Xavier">
+<meta name="theme-color" content="#0b3c5d">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main id="main">
+<section><div class="wrap">
+<h1>Contato</h1>
+<p>Joinville / Barra Velha – SC. <a href="#" data-agenda data-ev="agendar">Agendar uma reunião</a> ou envie sua mensagem:</p>
+<form id="form" novalidate="false">
+<label>Nome *<input name="nome" required autocomplete="name"></label>
+<label>E-mail *<input name="email" type="email" required autocomplete="email"></label>
+<label>Telefone / WhatsApp<input name="telefone" type="tel" inputmode="numeric" placeholder="(47) 99999-9999" autocomplete="tel"></label>
+<label>Empresa<input name="empresa" autocomplete="organization"></label>
+<label>Cargo<input name="cargo" autocomplete="organization-title"></label>
+<label>Porte da empresa<select name="porte"><option value="">Selecione</option><option>Até 20</option><option>21-100</option><option>101-500</option><option>500+</option></select></label>
+<label>Setor<select name="setor"><option value="">Selecione</option><option>Indústria</option><option>Serviços</option><option>Infraestrutura</option><option>Comércio</option><option>Outro</option></select></label>
+<label>Tipo de interesse *<select name="interesse" required><option value="">Selecione</option><option>Consultoria</option><option>Palestra</option><option>Treinamento</option><option>Vaga/Recrutamento</option><option>Parceria</option><option>Outro</option></select></label>
+<label>Mensagem * <small id="cnt">0/1000</small><textarea name="mensagem" rows="5" maxlength="1000" required></textarea></label>
+<label>Como conheceu<select name="origem"><option value="">Selecione</option><option>LinkedIn</option><option>Busca no Google</option><option>Indicação</option><option>Evento</option><option>Outro</option></select></label>
+<label>Preferência de contato<select name="preferencia"><option>E-mail</option><option>WhatsApp</option><option>Ligação</option></select></label>
+<input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<label class="chk"><input type="checkbox" name="lgpd" required> <span>Concordo com o tratamento dos meus dados para retorno deste contato, conforme a <a href="privacidade.html">Política de Privacidade</a>. *</span></label>
+<button class="btn" type="submit">Enviar</button>
+<p id="msg" role="status"></p>
+</form>
+</div></section>
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>

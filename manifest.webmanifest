@@ -1,0 +1,13 @@
+{
+  "name": "Rafael Xavier – EngenIA Processos",
+  "short_name": "Rafael Xavier",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b3c5d",
+  "lang": "pt-BR",
+  "icons": [
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}
