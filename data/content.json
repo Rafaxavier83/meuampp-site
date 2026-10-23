@@ -1,0 +1,36 @@
+{
+  "config": {
+    "siteUrl": "https://rafaelxavier.com.br",
+    "whatsapp": "5547999999999",
+    "email": "contato@rafaelxavier.com.br",
+    "linkedin": "https://www.linkedin.com/in/rafael-xavier-01332241",
+    "formEndpoint": "https://formspree.io/f/SEU_ID_AQUI",
+    "agenda": "https://calendly.com/SEU_USUARIO",
+    "cnpj": "CNPJ e razão social a informar"
+  },
+  "servicos": [
+    {"t":"Diagnóstico Operacional","p":"Operação cresceu sem clareza de onde estão os gargalos.","e":"Raio-X de processos, mapa de gargalos, quick wins priorizados.","prazo":"2 a 4 semanas","f":"Presencial / híbrido"},
+    {"t":"Mapeamento e Redesenho de Processos","p":"Cada pessoa faz de um jeito; não há padrão nem dono.","e":"BPMN 2.0 (AS-IS e TO-BE), POPs, matriz RACI.","prazo":"4 a 8 semanas","f":"Projeto"},
+    {"t":"Governança e Indicadores","p":"Decisões por opinião; dados pouco confiáveis.","e":"KPIs, rituais de gestão, dashboards executivos.","prazo":"4 a 8 semanas","f":"Projeto"},
+    {"t":"Transformação Digital e IA aplicada","p":"Retrabalho manual e sistemas que não conversam.","e":"Automações com IA, ferramentas web, integração de sistemas.","prazo":"Sob escopo","f":"Projeto / sprint"},
+    {"t":"Diretor de Operações as a Service","p":"Falta liderança de operações sem custo de contratação CLT.","e":"Gestão interina, rotina de acompanhamento, sustentação.","prazo":"Contrato mensal","f":"Recorrente"},
+    {"t":"Treinamentos e Palestras","p":"Equipe sem base em Lean, processos e IA na operação.","e":"Palestras e workshops práticos.","prazo":"2 a 16 horas","f":"Presencial / online"}
+  ],
+  "dores": [
+    "Crescimento sem estrutura: a operação virou apagar incêndio.",
+    "Retrabalho e desperdício que ninguém mede.",
+    "Indicadores que não são confiáveis, então a decisão vira palpite.",
+    "Sistemas e planilhas que não conversam entre si."
+  ],
+  "timeline": [
+    {"d":"mai/2025 – atual","t":"EngenIA Processos","r":"Fundador e Diretor de Operações"},
+    {"d":"mai/2026 – atual","t":"Novalogic Infraestrutura e Data Center","r":"Suporte Processos / Melhoria Contínua, atuação em 7 áreas"},
+    {"d":"mar/2025 – mar/2026","t":"Q-Assist Soluções em Negócios","r":"Gerente de Operações; consultor de mapeamento BPMN 2.0"},
+    {"d":"abr/2024 – jan/2025","t":"Hidrofiltros","r":"Coordenador de Processos e Melhoria Contínua"},
+    {"d":"jun/2018 – dez/2023","t":"Cebrace (vidro plano)","r":"Engenheiro de Processos Sênior"},
+    {"d":"mai/2013 – jun/2018","t":"Cebrace","r":"Coordenador de Contratos e Almoxarifado"},
+    {"d":"dez/2009 – mai/2013","t":"Cebrace","r":"Comprador Pleno"}
+  ],
+  "competencias": ["Engenharia de processos","BPMN 2.0","Lean Six Sigma (GB/BB)","Melhoria contínua","Governança","Indicadores/KPIs","Dashboards executivos","Integração de sistemas","Automação com IA","Suprimentos","Contratos","Almoxarifado/Logística","Gestão de operações","Microsoft Visio","Inovação empresarial","Indústria química","Inglês"],
+  "metodo": ["Diagnóstico","Mapeamento AS-IS","Desenho TO-BE","Implantação","Indicadores","Sustentação"]
+}
